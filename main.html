@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mp3 Visualizer</title>
+    <meta name="description" content="Mp3 Visualizer" />
+    <meta name="keywords" content="Mp3 Visualizer" />
+    <meta name="author" content="Manuel" />
+    <link rel="icon" href="wave-sound.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main class="visualizer-container">
+      <div id="trackInfo" class="track-info"></div>
+      <canvas class="canvasVisualizer" id="myCanvas"></canvas>
+    </main>
+
+    <button id="menuToggle" class="menu-toggle">☰</button>
+
+    <aside id="sideMenu" class="side-menu">
+      <button id="closeMenu" class="close-menu">×</button>
+      <div class="control-group">
+        <label for="fileInput" class="custom-file-upload">
+          Choose Audio File
+        </label>
+        <input type="file" id="fileInput" accept="audio/*" />
+      </div>
+      <audio id="audio" controls></audio>
+    </aside>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
