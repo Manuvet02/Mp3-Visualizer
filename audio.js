@@ -13,8 +13,8 @@ export function initAudio() {
   source = audioContext.createMediaElementSource(audioElement);
 
   audioState.analyser = audioContext.createAnalyser();
-  audioState.analyser.fftSize = 16384;
-  audioState.analyser.smoothingTimeConstant = 0.8;
+  audioState.analyser.fftSize = 8192;
+  audioState.analyser.smoothingTimeConstant = 0.65;
 
   audioState.dataArray = new Uint8Array(audioState.analyser.frequencyBinCount);
 

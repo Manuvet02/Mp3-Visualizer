@@ -28,9 +28,9 @@ function resizeCanvas() {
 
 // Configuration
 const SMOOTHING = 0.8;
-const BAR_COUNT = 8192;
+const BAR_COUNT = 256;
 const smoothedBars = new Array(BAR_COUNT).fill(0);
-const PARTICLE_COUNT = 500;
+const PARTICLE_COUNT = 50;
 const particles = [];
 const flyingParticles = [];
 
