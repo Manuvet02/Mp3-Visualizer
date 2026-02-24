@@ -1,0 +1,15 @@
+{
+  "name": "MP3 Visualizer",
+  "short_name": "A website to visualize audio frequencies in real-time.",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/wave-sound.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
